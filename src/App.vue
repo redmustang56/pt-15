@@ -1,13 +1,16 @@
 <template>
     <div id="app">
-        Init
+        <Wrap />
     </div>
 </template>
 
 <script>
+    import Wrap from "./components/game/Wrap"
 
     export default {
         name: 'app',
-        components: {},
+        components: {
+            Wrap
+        }
     }
 </script>
